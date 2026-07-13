@@ -226,6 +226,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="דברו איתנו ותנו לקצב להתחיל — DJ Yahav Marziano (YM)">
     <meta name="twitter:description" content="יש שאלה? רוצים להזמין או סתם להגיד היי? צרו קשר עם הצוות של יאהב מרציאנו עוד היום. אנחנו כאן כדי להפוך כל פנייה להפקה בלתי נשכחת עם שירות אישי ומהיר.">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://dj-yahav-marziano-ym.zappy5.app#organization","name":"DJ Yahav Marziano (YM)","url":"https://dj-yahav-marziano-ym.zappy5.app","description":"Yahav Marziano (YM) is a professional DJ brand built around luxury, energy, and unforgettable event experiences. The brand identity is rooted in a sleek black, gold, and white aesthetic with LED party vibes, projecting exclusivity and high-end entertainment. The website serves as both a premium showcase and a full booking platform, featuring music mixes, event galleries, client testimonials, and a sophisticated admin dashboard for managing reservations and calendar events.","contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"yahav.mr14@gmail.com","telephone":"0549616666"}]},{"@type":"WebSite","@id":"https://dj-yahav-marziano-ym.zappy5.app#website","url":"https://dj-yahav-marziano-ym.zappy5.app","name":"DJ Yahav Marziano (YM)","publisher":{"@id":"https://dj-yahav-marziano-ym.zappy5.app#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://dj-yahav-marziano-ym.zappy5.app"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://dj-yahav-marziano-ym.zappy5.app/contact"}]},{"@type":"ContactPage","@id":"https://dj-yahav-marziano-ym.zappy5.app/contact#contactpage","url":"https://dj-yahav-marziano-ym.zappy5.app/contact","name":"דברו איתנו ותנו לקצב להתחיל — DJ Yahav Marziano (YM)","mainEntity":{"@id":"https://dj-yahav-marziano-ym.zappy5.app#organization"},"potentialAction":{"@type":"CommunicateAction","target":{"@type":"EntryPoint","urlTemplate":"https://dj-yahav-marziano-ym.zappy5.app/api/email/contact-form","actionPlatform":["http/method=POST"],"contentType":"application/json"},"instrument":[{"@type":"PropertyValue","name":"name","propertyID":"text","valueRequired":true,"description":"ישראל ישראלי"},{"@type":"PropertyValue","name":"email","propertyID":"email","valueRequired":true,"description":"your@email.com"},{"@type":"PropertyValue","name":"phone","propertyID":"tel","valueRequired":true,"description":"050-0000000"},{"@type":"PropertyValue","name":"message","propertyID":"textarea","valueRequired":true,"description":"אנא ציינו תאריך מועדף, שעה, מיקום האירוע, סוג האירוע, מספר אורחים משוער, סגנון מוזיקלי והערות נוספות..."},{"@type":"PropertyValue","name":"privacy_consent","propertyID":"checkbox","valueRequired":true}]}}]}</script>
     <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   
@@ -360,7 +361,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0549616666" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -819,7 +820,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0549616666';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -849,7 +850,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         </div>
         <div class="contact-intro-card-content">
           <h3>שיחת טלפון</h3>
-          <span>[business_phone]</span>
+          <span>0549616666</span>
         </div>
       </a>
       
@@ -976,13 +977,13 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
               <span class="contact-contact-section__contact-icon-wrapper" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
               </span>
-              <span>[business_phone]</span>
+              <span>0549616666</span>
             </a>
-            <a href="mailto:[business_email]" class="contact-contact-section__contact-link" data-zappy-contact-field="email">
+            <a href="mailto:yahav.mr14@gmail.com" class="contact-contact-section__contact-link" data-zappy-contact-field="email">
               <span class="contact-contact-section__contact-icon-wrapper" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
               </span>
-              <span>[business_email]</span>
+              <span>yahav.mr14@gmail.com</span>
             </a>
             <a href="https://maps.google.com/?q=[business_address]" target="_blank" class="contact-contact-section__contact-link" data-zappy-contact-field="address">
               <span class="contact-contact-section__contact-icon-wrapper" aria-hidden="true">
@@ -994,13 +995,13 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         </div>
 
         <div class="contact-contact-section__social-links">
-          <a href="#" target="_blank" class="contact-contact-section__social-link" aria-label="WhatsApp" data-zappy-social-placeholder="true">
+          <a href="#" target="_blank" class="contact-contact-section__social-link" aria-label="WhatsApp" data-zappy-social-placeholder="true" style="display:none !important;">
             <i class="fab fa-whatsapp"></i>
           </a>
-          <a href="#" target="_blank" class="contact-contact-section__social-link" aria-label="Instagram" data-zappy-social-placeholder="true">
+          <a href="https://instagram.com/dj_yahavmarziano?igsh=MWUxY3NnZTJxYTZrZg==" target="_blank" class="contact-contact-section__social-link" aria-label="Instagram" data-zappy-social-placeholder="true">
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="#" target="_blank" class="contact-contact-section__social-link" aria-label="Facebook" data-zappy-social-placeholder="true">
+          <a href="#" target="_blank" class="contact-contact-section__social-link" aria-label="Facebook" data-zappy-social-placeholder="true" style="display:none !important;">
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
@@ -1164,11 +1165,11 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:yahav.mr14@gmail.com">yahav.mr14@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0549616666">0549616666</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
@@ -1178,20 +1179,18 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א׳–ה׳</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו׳</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com/dj_yahavmarziano?igsh=MWUxY3NnZTJxYTZrZg==" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -1214,7 +1213,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0549616666" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

@@ -52,7 +52,9 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: yahav.mr14@gmail.com
+- Phone: 0549616666
+- Phone (tel): tel:0549616666
 
 ### Contact form
 - URL: https://dj-yahav-marziano-ym.zappy5.app/contact
