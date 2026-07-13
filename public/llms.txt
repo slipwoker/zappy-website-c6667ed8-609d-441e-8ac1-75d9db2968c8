@@ -1,0 +1,91 @@
+# DJ Yahav Marziano (YM) — Generative Engine Optimization Map
+
+> Yahav Marziano (YM) is a professional DJ brand built around luxury, energy, and unforgettable event experiences. The brand identity is rooted in a sleek black, gold, and white aesthetic with LED party vibes, projecting exclusivity and high-end entertainment. The website serves as both a premium showcase and a full booking platform, featuring music mixes, event galleries, client testimonials, and a sophisticated admin dashboard for managing reservations and calendar events.
+
+---
+
+## Pages
+
+### בית
+https://dj-yahav-marziano-ym-c6667ed8.zappy5.app
+מחפשים אנרגיה מטורפת לאירוע שלכם? DJ Yahav Marziano (YM) מביא את הסאונד היוקרתי והאווירה המושלמת לכל במה. האזינו למיקסים, צפו בגלריות והזמינו עכשיו את הליין שיעיף את האורחים שלכם.
+
+### שירותים
+https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/services
+חתונה, בר מצווה או אירוע עסקי? גלו את חבילות התקליטנות המושלמות שמשלבות LED, זהב ושחור לחוויית פרימיום. התאימו את המוזיקה לחלום שלכם והפכו כל רגע לפסגת האנרגיה.
+
+### גלריה
+https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/gallery
+תמונות וסרטונים מהאירועים הכי לוהטים שעשינו. צפו באנרגיה, בתאורה ובריקודים שמגדירים מחדש בידור יוקרתי. היכנסו לגלריה ותתחילו לדמיין את האירוע שלכם.
+
+### אודות
+https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/about
+יאהב מרציאנו הוא לא סתם DJ – הוא מותג של אלגנטיות וקצב. קראו על החזון, הניסיון והתשוקה שמאחורי כל סט. גלו למה לקוחות מחפשים רק אותו כשהם רוצים מוזיקה חיה ברמה אחרת.
+
+### הזמנה
+https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/booking
+אל תחכו שהתאריך ייתפס! הזמינו את יאהב מרציאנו בלחיצת כפתור ובחרו את החבילה שמתאימה לכם. לוח שנה חכם, אישור מיידי ומוזיקה שתהפוך את האירוע לאגדה.
+
+### צור קשר
+https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/contact
+יש שאלה? רוצים להזמין או סתם להגיד היי? צרו קשר עם הצוות של יאהב מרציאנו עוד היום. אנחנו כאן כדי להפוך כל פנייה להפקה בלתי נשכחת עם שירות אישי ומהיר.
+
+### תודה רבה - פנייתך התקבלה | DJ Yahav Marziano
+https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/thank-you
+תודה שפנית אלינו. פנייתך התקבלה בהצלחה וצוות אולם הופעות חיות שלנו יחזור אליך בהקדם האפשרי.
+
+## Legal & Policy
+
+### Privacy Policy
+https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/contact
+- Endpoint: https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About DJ Yahav Marziano (YM)
+Yahav Marziano (YM) is a professional DJ brand built around luxury, energy, and unforgettable event experiences. The brand identity is rooted in a sleek black, gold, and white aesthetic with LED party vibes, projecting exclusivity and high-end entertainment. The website serves as both a premium showcase and a full booking platform, featuring music mixes, event galleries, client testimonials, and a sophisticated admin dashboard for managing reservations and calendar events.
+
+## Target Audience
+- משפחות לבר/בת מצווה
+- חברות לאירועי חברה
+- אנשים פרטיים לימי הולדת ומסיבות
+- מתכנני אירועים
+
+## Industry
+Entertainment & Events
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/sitemap.xml
+- Robots: https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://dj-yahav-marziano-ym-c6667ed8.zappy5.app/llms-full.txt
